@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AverageofLevelsinBinaryTree637.cs" />
+    <Compile Include="Binary-Tree\AverageofLevelsinBinaryTree637.cs" />
+    <Compile Include="Binary-Tree\Binary Tree Level Order Traversal II_107.cs" />
+    <Compile Include="Binary-Tree\Construct String from Binary Tree606.cs" />
+    <Compile Include="Binary-Tree\Convert BST to Greater Tree.cs" />
+    <Compile Include="Binary-Tree\Convert Sorted Array to Binary Search Tree108.cs" />
     <Compile Include="Binary-Tree\InvertBinaryTree226.cs" />
     <Compile Include="Binary-Tree\MaxHeight104.cs" />
     <Compile Include="Binary-Tree\MergeTwoBinaryTrees_617.cs" />
     <Compile Include="Binary-Tree\RootToLeaveBinarySum.cs" />
+    <Compile Include="Binary-Tree\TrimBinarySearchTree669.cs" />
+    <Compile Include="Binary-Tree\Two Sum IV - Input is a BST653.cs" />
     <Compile Include="Binary-Tree\UnivaluedBinaryTree965.cs" />
     <Compile Include="MultiNode.cs" />
     <Compile Include="N-ary\N-aryTreePostorderTraversal_590.cs" />
