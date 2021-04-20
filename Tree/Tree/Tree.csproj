@@ -44,14 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Binary-Tree\AverageofLevelsinBinaryTree637.cs" />
+    <Compile Include="Binary-Tree\Balanced Binary Tree110.cs" />
     <Compile Include="Binary-Tree\Binary Tree Level Order Traversal II_107.cs" />
     <Compile Include="Binary-Tree\Construct String from Binary Tree606.cs" />
     <Compile Include="Binary-Tree\Convert BST to Greater Tree.cs" />
     <Compile Include="Binary-Tree\Convert Sorted Array to Binary Search Tree108.cs" />
+    <Compile Include="Binary-Tree\Cousins in Binary Tree993.cs" />
+    <Compile Include="Binary-Tree\Diameter of Binary Tree_543.cs" />
+    <Compile Include="Binary-Tree\Find Mode in Binary Search Tree501.cs" />
     <Compile Include="Binary-Tree\InvertBinaryTree226.cs" />
     <Compile Include="Binary-Tree\MaxHeight104.cs" />
     <Compile Include="Binary-Tree\MergeTwoBinaryTrees_617.cs" />
+    <Compile Include="Binary-Tree\Minimum Distance Between BST Nodes783.cs" />
+    <Compile Include="Binary-Tree\Path Sum112.cs" />
     <Compile Include="Binary-Tree\RootToLeaveBinarySum.cs" />
+    <Compile Include="Binary-Tree\Subtree of Another Tree572.cs" />
+    <Compile Include="Binary-Tree\Symmetric Tree101.cs" />
     <Compile Include="Binary-Tree\TrimBinarySearchTree669.cs" />
     <Compile Include="Binary-Tree\Two Sum IV - Input is a BST653.cs" />
     <Compile Include="Binary-Tree\UnivaluedBinaryTree965.cs" />
@@ -60,7 +68,7 @@
     <Compile Include="Binary-Tree\RangeSumofBST_938.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Binary-Tree\SumofRootToLeafBinaryNumbers.cs" />
+    <Compile Include="Binary-Tree\SumofRootToLeafBinaryNumbers1022.cs" />
     <Compile Include="TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
