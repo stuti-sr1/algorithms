@@ -1,20 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace RecursionEasy
 {
-    class Program
+    public static class sum_of_nodes_L_R
     {
-        static void Main(string[] args)
-        {
-            TreeNode root = new TreeNode(10);
-            root.left = new TreeNode(5);
-            root.left.left = new TreeNode(3);
-            root.left.right = new TreeNode(7);
-            root.right = new TreeNode(15);
-            root.right.right = new TreeNode(18);
-            Console.WriteLine(RangeSumBST(root, 7, 15));
-            Console.ReadKey();
-        }
         public static int RangeSumBST(TreeNode root, int L, int R)
         {
             int sum = 0;
