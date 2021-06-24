@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Univalue Path", "Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllPossibleFBT", "AllPossibleFBT\AllPossibleFBT.csproj", "{25C45D20-2848-471D-9CCE-DA7FAA8D9D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionEasy", "RecursionEasy\RecursionEasy.csproj", "{28728728-3495-468C-AE32-E7CE9079E7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionEasy", "RecursionEasy\RecursionEasy.csproj", "{28728728-3495-468C-AE32-E7CE9079E7A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

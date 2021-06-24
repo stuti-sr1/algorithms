@@ -17,7 +17,9 @@ namespace RecursionEasy
             root.right.right = new TreeNode(18);
             Console.WriteLine(sum_of_nodes_L_R.RangeSumBST(root, 7, 15));
 
-
+            Console.WriteLine(Power_of_Two.IsPowerOfTwo(1));
+            Console.WriteLine(Power_of_Three.IsPowerOfThree(45));
+            Console.WriteLine(Power_of_Four.IsPowerOfFour(16));
             Console.ReadKey();
         }
     }
