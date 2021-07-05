@@ -36,7 +36,7 @@ namespace RecursionEasy
             l2.next.next = new ListNode(6);
             Console.WriteLine(Merge_Two_Sorted_Lists.MergeTwoLists(l1, l2));
 
-            ListNode head = new ListNode(1);
+            head = new ListNode(1);
             head.next = new ListNode(2);
             head.next.next = new ListNode(6);
             head.next.next.next = new ListNode(3);
@@ -44,12 +44,20 @@ namespace RecursionEasy
             head.next.next.next.next.next = new ListNode(5);
             head.next.next.next.next.next.next = new ListNode(6);
 
-            //ListNode head = new ListNode(7);
-            //head.next = new ListNode(7);
-            //head.next.next = new ListNode(7);
-            //head.next.next.next = new ListNode(7);
-            Console.WriteLine(RemoveLinkedListElements.RemoveElements(head,6));
+            head = new ListNode(7);
+            head.next = new ListNode(7);
+            head.next.next = new ListNode(7);
+            head.next.next.next = new ListNode(7);
+            Console.WriteLine(RemoveLinkedListElements.RemoveElements(head, 6));
 
+            head = new ListNode(1);
+            head.next = new ListNode(2);
+            head.next.next = new ListNode(2);
+            head.next.next.next = new ListNode(1);
+            Console.WriteLine(PalindromeLinkedList.IsPalindrome(head));
+
+            string s = "hello";
+            ReverseStringFun.ReverseString(s.ToCharArray());
             Console.ReadKey();
         }
     }
