@@ -23,14 +23,15 @@ namespace RecursionEasy
         public static void ReverseString(char[] s)
         {
             helper(s, 0, s.Length - 1);
+            Console.WriteLine(s);
         }
 
         private static void helper(char[] s, int start, int end)
         {
             if (start >= end) return;
             char temp = s[start];
-            s[start] = s[end - start];
-            s[end - start] = temp;
+            s[start] = s[end];
+            s[end] = temp;
             helper(s, ++start, --end);
         }
     }
