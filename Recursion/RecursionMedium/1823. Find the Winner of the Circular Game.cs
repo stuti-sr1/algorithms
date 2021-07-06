@@ -46,10 +46,10 @@ namespace RecursionMedium
     {
         public int value { get; set; }
         public ListNode next { get; set; }
-        public ListNode(int value)
+        public ListNode(int value = 0, ListNode node = null)
         {
             this.value = value;
-            this.next = null;
+            this.next = node;
         }
     }
 }
