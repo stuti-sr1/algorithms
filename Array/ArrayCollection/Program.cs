@@ -46,6 +46,13 @@ namespace ArrayCollection
             int[] nums3 = { 4, 5, 6, 7, 0, 1, 2 }; 
             int target = 0;
             SearchinRotatedSortedArray.Search(nums3,target);
+
+            int[] nums5 = { -1, 0, 1, 2, -1, -4 };// { 4, 5, 6, 7, 0, 1, 2 };
+            var t= _3Sum.ThreeSum(nums5);
+
+            int[] nums6 = { 1, 3, 3 };// { 2, 2, 2, 0, 1 };// { 4, 5, 6, 7, 0, 1, 2 };
+            int t1 = _154FindMinimuminRotatedSortedArrayII.FindMin(nums6);
+
             Console.ReadKey();
         }
     }
