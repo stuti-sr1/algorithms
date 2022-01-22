@@ -40,19 +40,46 @@ namespace ArrayCollection
             _73SetMatrixZeroes.SetZeroes(matrix);
 
 
-            int[] nums4 = {3, 4, 5, 1, 2};
+            int[] nums4 = { 3, 4, 5, 1, 2 };
             _153FindMinimuminRotatedSortedArray.FindMin(nums4);
 
-            int[] nums3 = { 4, 5, 6, 7, 0, 1, 2 }; 
+            int[] nums3 = { 4, 5, 6, 7, 0, 1, 2 };
             int target = 0;
-            SearchinRotatedSortedArray.Search(nums3,target);
+            SearchinRotatedSortedArray.Search(nums3, target);
 
             int[] nums5 = { -1, 0, 1, 2, -1, -4 };// { 4, 5, 6, 7, 0, 1, 2 };
-            var t= _3Sum.ThreeSum(nums5);
+            var t = _3Sum.ThreeSum(nums5);
 
             int[] nums6 = { 1, 3, 3 };// { 2, 2, 2, 0, 1 };// { 4, 5, 6, 7, 0, 1, 2 };
             int t1 = _154FindMinimuminRotatedSortedArrayII.FindMin(nums6);
 
+
+            int[] height1 = { 4, 2, 0, 3, 2, 5 };// { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+            t1 = _42TrappingRainWater.Trap(height1);
+
+            //p = new int[] { 1, 5 };
+            ////p1 = new int[] { 6, 9 };
+            //int[][] intervals = {p };
+            //int[] newInterval = { 2, 7 };
+
+
+            p = new int[] { 1, 2 };
+            p1 = new int[] { 3, 5 };
+            p2 = new int[] { 6, 7 };
+            p3 = new int[] { 8, 10 };
+            int[] p4 = new int[] { 12, 16 };
+            int[][] intervals = { p, p1, p2, p3, p4 };
+            int[] newInterval = { 4, 8 };
+            t = _57InsertInterval.Insert(intervals, newInterval);
+
+
+            //p = new int[] {1,4 };// { 1, 3 };
+            //p1 = new int[] {2,3 };// { 2,6};
+            //                   //p2 = new int[] { 8, 10 };
+            //                   //p3 = new int[] { 15,18 };
+
+            //int[][] intervals = { p, p1 };//, p2, p3};
+            //t = _56MergeIntervals.Merge(intervals);
             Console.ReadKey();
         }
     }
