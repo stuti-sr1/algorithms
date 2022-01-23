@@ -63,23 +63,26 @@ namespace ArrayCollection
             //int[] newInterval = { 2, 7 };
 
 
-            p = new int[] { 1, 2 };
-            p1 = new int[] { 3, 5 };
-            p2 = new int[] { 6, 7 };
-            p3 = new int[] { 8, 10 };
-            int[] p4 = new int[] { 12, 16 };
-            int[][] intervals = { p, p1, p2, p3, p4 };
-            int[] newInterval = { 4, 8 };
-            t = _57InsertInterval.Insert(intervals, newInterval);
+            //p = new int[] { 1, 2 };
+            //p1 = new int[] { 3, 5 };
+            //p2 = new int[] { 6, 7 };
+            //p3 = new int[] { 8, 10 };
+            //int[] p4 = new int[] { 12, 16 };
+            //int[][] intervals = { p, p1, p2, p3, p4 };
+            //int[] newInterval = { 4, 8 };
+            //t = _57InsertInterval.Insert(intervals, newInterval);
 
 
-            //p = new int[] {1,4 };// { 1, 3 };
-            //p1 = new int[] {2,3 };// { 2,6};
-            //                   //p2 = new int[] { 8, 10 };
-            //                   //p3 = new int[] { 15,18 };
+            //p = new int[] { 1, 4 };// { 1, 3 };
+            //p1 = new int[] { 2, 3 };// { 2,6};
+            //                        //p2 = new int[] { 8, 10 };
+            //                        //p3 = new int[] { 15,18 };
 
-            //int[][] intervals = { p, p1 };//, p2, p3};
+            //intervals = { p, p1 };//, p2, p3};
             //t = _56MergeIntervals.Merge(intervals);
+
+            int[] flowerbed = new int[] { 1, 0, 0, 0, 0, 1 };
+            _605CanPlaceFlowers.CanPlaceFlowers(flowerbed, 2);
             Console.ReadKey();
         }
     }
