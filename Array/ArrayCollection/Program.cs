@@ -83,6 +83,13 @@ namespace ArrayCollection
 
             int[] flowerbed = new int[] { 1, 0, 0, 0, 0, 1 };
             _605CanPlaceFlowers.CanPlaceFlowers(flowerbed, 2);
+
+            _202HappyNumber.IsHappy(19);
+
+            int[] asteroids = {5,10,-5 };// 10, 2, -5 };
+            _735AsteroidCollision.AsteroidCollision(asteroids);
+
+            _1945SumofDigitsofStringAfterConvert.GetLucky("zbax", 2);
             Console.ReadKey();
         }
     }
