@@ -86,10 +86,36 @@ namespace ArrayCollection
 
             _202HappyNumber.IsHappy(19);
 
-            int[] asteroids = {5,10,-5 };// 10, 2, -5 };
+            int[] asteroids = { 5, 10, -5 };// 10, 2, -5 };
             _735AsteroidCollision.AsteroidCollision(asteroids);
 
             _1945SumofDigitsofStringAfterConvert.GetLucky("zbax", 2);
+
+            int[] num = { 0, 0 };// 3, 30, 34, 5, 9 };
+            Console.WriteLine(_179LargestNumber.LargestNumber(num));
+
+            p = new int[] { 1, 2 };
+            p1 = new int[] { 2, 3 };
+            p2 = new int[] { 3, 4 };
+            p3 = new int[] { 1, 3 };
+            int[][] intervals = { p, p, p };// { p, p1, p2, p3 };
+            Console.WriteLine(_435Non_overlappingIntervals.EraseOverlapIntervals(intervals));
+
+            p = new int[] { 1, 2 };
+            p1 = new int[] { 2, 3 };
+            p2 = new int[] { 3, 4 };
+            p3 = new int[] { 4, 5 };
+            int[][] points = { p, p1, p2, p3 };
+
+            // [[3,9],[7,12],[3,8],[6,8],[9,10],[2,9],[0,9],[3,9],[0,6],[2,8]]
+            Console.WriteLine(_452MinimumNumberofArrowstoBurstBalloons.FindMinArrowShots(points));
+
+            //matrix = [[1,2,3],[4,5,6],[7,8,9]]
+            p = new int[] { 1, 2 };// { 1, 2, 3 };
+            p1 = new int[] { 3, 4 };// { 4, 5, 6 };
+            //p2 = new int[] { 7, 8, 9 };
+            int[][] matrix1 = { p, p1 };//, p2 };
+            _54SpiralMatrix.SpiralOrder(matrix1);
             Console.ReadKey();
         }
     }
