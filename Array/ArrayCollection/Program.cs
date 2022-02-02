@@ -111,11 +111,15 @@ namespace ArrayCollection
             Console.WriteLine(_452MinimumNumberofArrowstoBurstBalloons.FindMinArrowShots(points));
 
             //matrix = [[1,2,3],[4,5,6],[7,8,9]]
-            p = new int[] { 1, 2 };// { 1, 2, 3 };
-            p1 = new int[] { 3, 4 };// { 4, 5, 6 };
-            //p2 = new int[] { 7, 8, 9 };
-            int[][] matrix1 = { p, p1 };//, p2 };
+            p = new int[] { 1, 2, 3 };
+            p1 = new int[] { 4, 5, 6 };
+            p2 = new int[] { 7, 8, 9 };
+            int[][] matrix1 = { p, p1, p2 };
             _54SpiralMatrix.SpiralOrder(matrix1);
+
+            _59SpiralMatrixII.GenerateMatrix(3);
+
+            _48RotateImage.Rotate(matrix1);
             Console.ReadKey();
         }
     }
