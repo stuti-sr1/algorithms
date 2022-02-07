@@ -120,6 +120,30 @@ namespace ArrayCollection
             _59SpiralMatrixII.GenerateMatrix(3);
 
             _48RotateImage.Rotate(matrix1);
+
+            _885SpiralMatrixIII.SpiralMatrixIII(5, 6, 1, 4);
+
+
+            //string word = "ABCCED";
+            //char[] s = new char[] { 'A', 'B', 'C', 'E' };
+            //char[] s1 = new char[] { 'S', 'F', 'C', 'S' };
+            //char[] s2 = new char[] { 'A', 'D', 'E', 'E' };
+
+            string word = "ABCB";//"aaa";//
+            char[] s = new char[] { 'A', 'B', 'C', 'E' }; //{ 'a', 'a' };
+            char[] s1 = new char[] { 'S', 'F', 'C', 'S' };
+            char[] s2 = new char[] { 'A', 'D', 'E', 'E' };
+            char[][] board1 = { s, s1, s2 };
+            _79WordSearch.Exist(board1, word);
+
+
+            char[] a = new char[] { 'o', 'a', 'a', 'n' };
+            char[] a1 = new char[] { 'e', 't', 'a', 'e' };
+            char[] a2 = new char[] { 'i', 'h', 'k', 'r' };
+            char[] a3 = new char[] { 'i', 'f', 'l', 'v' };
+            char[][] board2 = { a, a1, a2, a3 };
+            string[] words =  { "oath", "pea", "eat", "rain" };
+            var list= _212WordSearchII.FindWords(board2, words);
             Console.ReadKey();
         }
     }
