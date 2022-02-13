@@ -7,14 +7,19 @@ namespace LinkedList
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //1,2,3,4,5
             ListNode node = new ListNode(1);
-            //node.next = new ListNode(2);
-            //node.next.next = new ListNode(3);
-            //node.next.next.next = new ListNode(4);
-            //node.next.next.next.next = new ListNode(5);
+            node.next = new ListNode(2);
+            node.next.next = new ListNode(3);
+            node.next.next.next = new ListNode(4);
+            node.next.next.next.next = new ListNode(5);
+            node.next.next.next.next.next = new ListNode(6);
 
-            _19RemoveNthNodeFromEndofList.RemoveNthFromEnd(node,1);
+             _19RemoveNthNodeFromEndofList.RemoveNthFromEnd(node,1);
+
+            _143ReorderList.ReorderList(node);
+
+            int[] nums = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
+            _75SortColors.SortColors(nums);
         }
     }
 }

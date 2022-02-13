@@ -24,6 +24,21 @@ namespace LinkedList
             return Recur(t, current);
         }
 
+        //iterative
+        public static ListNode ReverseList2(ListNode head)
+        {
+            ListNode prev = null;
+            ListNode temp ;
+            ListNode current = head;
+            while (current != null)
+            {
+                temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+            }
+            return prev;
+        }
 
         //temp or t is required for tail recursion
         public static ListNode ReverseList1(ListNode head)
