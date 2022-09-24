@@ -31,7 +31,14 @@ public class LowestCommonAncestorSolutionBTIII {
         } 
         return res;
     }
+    public class Node {
+    public int val;
+    public Node left;
+    public Node right;
+    public Node parent;
 }
+}
+
 
 // public class LowestCommonAncestorSolutionBTIII {
 //     public List<Node> pList;
@@ -66,9 +73,3 @@ public class LowestCommonAncestorSolutionBTIII {
 //         return list;
 //     }
 // }
-public class Node {
-    public int val;
-    public Node left;
-    public Node right;
-    public Node parent;
-}
