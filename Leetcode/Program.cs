@@ -118,21 +118,56 @@ namespace code
 // Output
 // [null, null, null, 1, null, -1, null, -1, 3, 4]
 
-            LRUCache obj = new LRUCache(2);
-            obj.Put(1,1);
-            obj.Put(2,2);
-            Console.WriteLine(obj.Get(1));            
-            obj.Put(3,3);
-            Console.WriteLine(obj.Get(2));
-            obj.Put(4,4);
-            Console.WriteLine(obj.Get(1));
-            Console.WriteLine(obj.Get(3));
-            Console.WriteLine(obj.Get(4));
+            // LRUCache obj = new LRUCache(2);
+            // obj.Put(1,1);
+            // obj.Put(2,2);
+            // Console.WriteLine(obj.Get(1));            
+            // obj.Put(3,3);
+            // Console.WriteLine(obj.Get(2));
+            // obj.Put(4,4);
+            // Console.WriteLine(obj.Get(1));
+            // Console.WriteLine(obj.Get(3));
+            // Console.WriteLine(obj.Get(4));
+
+            int[] arr={2,3,1,1,4};
+            //SolutionJumpII.Jump(arr);
+
+            // TrieSolution.Trie obj=new TrieSolution.Trie();
+            // obj.Insert("apple");
+            // bool param_2 = obj.Search("apple");
+            // bool param_3 = obj.Search("app");
+            // bool param_4 = obj.StartsWith("app");
+            // obj.Insert("app");
+            // bool param_5 = obj.Search("app");
+            // Console.WriteLine(param_2);
+            // Console.WriteLine(param_3);
+            // Console.WriteLine(param_4);
+            // Console.WriteLine(param_5);
+
+
+            TrieSolutionII.Trie obj=new TrieSolutionII.Trie();
+            obj.Insert("apple");
+            obj.Insert("apple");
+            int par_2 = obj.CountWordsEqualTo("apple");
+            // int par_3 = obj.CountWordsStartingWith("app");
+            // obj.Erase("apple");
+            // int par_4 = obj.CountWordsEqualTo("apple");
+            // int par_5 = obj.CountWordsStartingWith("app");
+            // obj.Erase("apple");
+            // int par_6= obj.CountWordsStartingWith("app");
+            Console.WriteLine(par_2);
+            // Console.WriteLine(par_3);
+            // Console.WriteLine(par_4);
+            // Console.WriteLine(par_5);
+            // Console.WriteLine(par_6);
+// ["Trie", "insert", "insert", "countWordsEqualTo", "countWordsStartingWith", "erase", "countWordsEqualTo", "countWordsStartingWith", "erase", "countWordsStartingWith"]
+// [[], ["apple"], ["apple"], ["apple"], ["app"], ["apple"], ["apple"], ["app"], ["apple"], ["app"]]
+// Output
+// [null, null, null, 2, 2, null, 1, 1, null, 0]
             Console.WriteLine("Hello stuti!");
         }
     }
 }
-
 
 // ["LRUCache","put","put","get","put","get","put","get","get","get"]
 // [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]

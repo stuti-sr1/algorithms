@@ -6,7 +6,7 @@ public class MaxPowerSolution {
         int count=0;
         for (int i = 1; i < s.Length; i++)
         {
-            if(str[i] == str[i-1]) 
+            if(s[i] == s[i-1]) 
             {
                 count++;
                 maxCount=Math.Max(count,maxCount);
